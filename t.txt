@@ -1,0 +1,13 @@
+pklot_yolo_runtime/
+├── dataset.yaml (файл конфигурации датасета)
+├── train/
+│   ├── images/
+│   └── labels/
+├── valid/
+│   ├── images/
+│   └── labels/
+└── test/
+    ├── images/
+    └── labels/
+
+    
