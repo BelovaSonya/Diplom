@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Виртуальное окружение
+venv/
+env/
+.venv/
+ENV/
+
+# Данные и модели (ЭТО САМОЕ ВАЖНОЕ!)
+*.pkl
+*.h5
+*.joblib
+*.pickle
+*.npy
+*.npz
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# Папки с данными и моделями (исключаем почти всё, кроме README)
+data/
+models/
+*.pkl
+
+# Результаты экспериментов
+results/
+*.log
+*.csv
+
+# Веб-сборки (если не нужно)
+web.v1/
+web.v2/
+*.zip
+*.tar
+*.gz
+
+# Jupyter Notebook (если есть большие)
+.ipynb_checkpoints/
+*.ipynb
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Логи
+*.log
+
+# Базы данных
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Детекция (если там большие файлы)
+detection/Parking-slot-detection-main/docs/assets/*.jpg
+detection/Parking-slot-detection-main/docs/assets/*.png
+detection/Parking-slot-detection-main/docs/assets/*.mp4
+detection/**/weights/
+detection/**/models/
+detection/**/*.pkl
+detection/**/*.h5
+detection/**/*.pb
